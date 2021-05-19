@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ToDoList</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/9f5fcf2991.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>To Do App</header>
+            <div class="inputField">
+                <input type="text" placeholder="Add your new to do">
+                <button><i class="fas fa-plus"></i></button>
+            </div>
+            <ul class="todolist">
+                <!-- data comes from local storage -->
+            </ul>
+            <div class="footer">
+                <span>You have <span class="num_tasks"></span> tasks to complete.</span>
+                <button>Clear All</button>
+            </div>
+        </div>    
+        <script src="app.js"></script>
+    </body>
+</html>
